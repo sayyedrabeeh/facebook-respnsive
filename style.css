@@ -1,0 +1,49 @@
+.fs-0{
+    font-size: 4rem;
+}
+.fs-7{
+    font-size: 0.8rem;
+}
+.bg-gray{
+background-color: #f0f2f5;
+}
+@media(min-width:62em){
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
+.nav__btn button:hover{
+    border-color: #f0f2f5 !important;
+}
+.nav__btn button:hover i{
+    color:#0d6efd !important;
+}
+.nav__btn-active:hover i{
+    color: #0d6efd !important;
+}
+.nav__btn-active{
+    position: relative;
+}
+.nav__btn-active::before{
+    content: '';
+    position: absolute;
+    bottom: -4.5px;
+    left: 0;
+    transform: translate(4.5PX);
+    width: 100%;
+    height: 3px;
+    border-bottom: 3px solid 0d6efd !important;
+}
+.scroll{
+    scrollbar-width:none;
+    scroll-behavior: smooth;
+    
+}
+.scrollbar:hover .scroll{
+    scrollbar-width: thin;
+}
+.spo{
+    scrollbar-width: none;
+}
